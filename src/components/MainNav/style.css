@@ -1,0 +1,11 @@
+@import url(../../globalStyles.css);
+
+.Main-Nav{
+    margin: auto;
+    /* background-color:black; */
+    /* background-color: rgba(230,156,25, 0.5); */
+    background-color: var(--global-primary-color);
+    color: white;
+    width: 640px;
+    height: 67px;
+}

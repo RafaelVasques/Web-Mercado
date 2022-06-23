@@ -1,0 +1,105 @@
+@import url(../../globalStyles.css);
+
+.SearchBar-Cart-Area {
+    background-color: var(--global-primary-color);
+    width: 640px;
+    box-sizing: border-box;
+    margin: auto;
+    padding: 7px 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.Sandwich-Menu {
+    background-image: url(../../guide-images/sandwich-menu.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+}
+
+.Logo {
+    background-color: var(--global-primary-color-variation);
+    width: 190px;
+    height: 60px;
+    margin-left: 12px;
+    border-radius: 10px;
+}
+
+.Login-Message {
+    color: white;
+    font-size: 18px;
+    box-sizing: border-box;
+    width: 131px;
+    height: 60px;
+    padding-top: 20px;
+
+}
+
+.Cart-Button {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    background-color: var(--global-tertiary-color);
+    box-sizing: border-box;
+    width: 148px;
+    height: 50px;
+    padding-top: 5px;
+    margin: 5px 0 0 5px;
+    border-radius: 100px;
+    text-decoration: none;
+}
+
+.Cart-Button div:first-of-type {
+    margin: 11px 0 0 0;
+}
+
+.Cart-Button div:last-of-type {
+    width: 35px;
+}
+
+.Cart-Button span:first-of-type {
+    font-size: 12px;
+    text-align: center;
+}
+
+.Cart-Button span:last-of-type {
+    content: url(../../../public/assets/cart.svg);
+    width: 30px;
+    height: 30px;
+    margin-top: -13px;
+}
+
+.Search-Bar {
+    display: flex;
+    background-color: white;
+    width: 545px;
+    height: 48px;
+    margin: 19px 0 13px;
+    border-radius: 50px;
+}
+
+.Search-Bar input {
+    font-size: 18px;
+    color: var(--global-primary-color);
+    width: 469px;
+    height: 46px;
+    margin-left: 24px;
+    border: none;
+    outline: none;
+}
+
+.Search-Bar input::placeholder {
+    color: var(--global-primary-color);
+}
+
+.Search-Bar img {
+    box-sizing: border-box;
+    background-color: var(--global-secundary-color);
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+}
