@@ -1,11 +1,78 @@
 @import url(../../globalStyles.css);
 
-.Main-Nav{
-    margin: auto;
-    /* background-color:black; */
-    /* background-color: rgba(230,156,25, 0.5); */
+:root {
+    --primary-color-nav-menu: white;
+    --primary-font-size-nav-menu: 18px;
+    --menu-cursor: pointer;
+    --transition-nav-menu-animation: background .4s;
+}
+
+.Main-Nav {
+    margin: 0 auto;
     background-color: var(--global-primary-color);
-    color: white;
     width: 640px;
-    height: 67px;
+    height: 66px;
+    padding-top: 1px;
+}
+
+.Main-Nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+.Main-Nav li {
+    display: inline-block;
+}
+
+.Main-Nav a {
+    text-decoration: none;
+    color: var(--primary-color-nav-menu);
+    padding: 10px;
+    font-size: var(--primary-font-size-nav-menu);
+    transition: var(--transition-nav-menu-animation);
+    cursor: var(--menu-cursor);
+}
+
+.Main-Nav a:hover {
+    background-color: var(--global-primary-color-variation);
+}
+
+.Main-Nav .Dropdown-Button {
+    color: var(--primary-color-nav-menu);
+    font-size: var(--primary-font-size-nav-menu);
+    display: inline-block;
+    padding: 10px;
+    transition: var(--transition-nav-menu-animation);
+    cursor: var(--menu-cursor);
+}
+
+.Main-Nav .Dropdown-Button:hover {
+    color: var(--primary-color-nav-menu);
+    font-size: var(--primary-font-size-nav-menu);
+    display: inline-block;
+    background-color: var(--global-primary-color-variation);
+}
+
+.Main-Nav .Dropdown-Content {
+    display: none;
+    position: absolute;
+    background-color: var(--global-primary-color-variation);
+}
+
+.Main-Nav .Menu-Dropdown:hover .Dropdown-Content {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-top: 0;
+}
+
+.Main-Nav .Dropdown-Content a {
+    display: block;
+    padding: 10px 30px;
+}
+
+.Main-Nav .Dropdown-Content a:hover {
+    background-color: var(--global-secundary-color); 
+    color: var(--global-primary-color);
 }
