@@ -1,0 +1,21 @@
+@import url(../../globalStyles.css);
+
+.Delivery-Address {
+    box-sizing: border-box;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: var(--global-primary-color-variation);
+    width: 640px;
+    height: 55px;
+    padding-top: 15px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.Delivery-Address span {
+    content: url("../../../public/assets/address-pin.svg");
+    width: 20px;
+    margin: -15px 10px 0 0;
+}

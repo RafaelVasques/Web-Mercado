@@ -3,12 +3,14 @@ import React from "react";
 
 import SearchBarCartAera from "../SearchBarCartArea";
 import MainNav from "../MainNav";
+import DeliveryAddress from "../DeliveryAddress";
 
 export default function Header (){
     return(
-        <div>
+        <header>
             <SearchBarCartAera />
             <MainNav />
-        </div>
+            <DeliveryAddress />
+        </header>
     );
 }
