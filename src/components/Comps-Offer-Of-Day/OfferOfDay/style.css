@@ -1,0 +1,22 @@
+@import url(../../../globalStyles.css);
+
+.Offer-Of-Day {
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-color: var(--global-secundary-color);
+    width: 640px;
+    padding-top: 12px
+}
+
+.Offer-Of-Day h1 {
+    color: var(--global-tertiary-color);
+    font-size: 43px;
+    margin: 0 0 13px;
+
+}
+
+.Cards-Area {
+    width: 640px;
+    height: 497px;
+}
+
