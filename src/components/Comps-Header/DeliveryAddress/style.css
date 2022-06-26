@@ -1,4 +1,4 @@
-@import url(../../globalStyles.css);
+@import url(../../../globalStyles.css);
 
 .Delivery-Address {
     box-sizing: border-box;
@@ -11,11 +11,10 @@
     padding-top: 15px;
     font-size: 20px;
     color: white;
-
 }
 
 .Delivery-Address span {
-    content: url("../../../public/assets/address-pin.svg");
+    content: url("../../../../public/assets/address-pin.svg");
     width: 20px;
     margin: -15px 10px 0 0;
 }

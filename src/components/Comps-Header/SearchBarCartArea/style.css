@@ -1,4 +1,4 @@
-@import url(../../globalStyles.css);
+@import url(../../../globalStyles.css);
 
 .SearchBar-Cart-Area {
     background-color: var(--global-primary-color);
@@ -12,7 +12,7 @@
 }
 
 .Sandwich-Menu {
-    background-image: url(../../guide-images/sandwich-menu.png);
+    background-image: url(../../../guide-images/sandwich-menu.png);
     background-repeat: no-repeat;
     background-position: center center;
     width: 60px;
@@ -67,7 +67,7 @@
 }
 
 .Cart-Button span:last-of-type {
-    content: url(../../../public/assets/cart.svg);
+    content: url(../../../../public/assets/cart.svg);
     width: 30px;
     height: 30px;
     margin-top: -13px;
