@@ -1,0 +1,120 @@
+@import url(../../../globalStyles.css);
+
+.Offer-Label {
+    box-sizing: border-box;
+    float: right;
+    z-index: 2;
+    background-color: var(--global-tertiary-color);
+    border-radius: 5px;
+    position: relative;
+    top: 44px;
+    width: 250px;
+    height: 33px;
+    padding-top: 8px;
+    color: white;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Offer-Label span{
+    text-decoration: line-through;
+}
+
+.Card-Product {
+    box-sizing: border-box;
+    background-color: white;
+    width: 450px;
+    height: 495px;
+    border-radius: 10px;
+    position: relative;
+    margin: 0 15px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.Card-Product .Product-Img-Container {
+    width: 450px;
+    max-height: 261px;
+}
+
+.Product-Img-Container img{
+    top: -33px;
+    position: relative;
+}
+
+.Card-Product .Product-Descripton {
+    margin: 14px auto 0;
+    text-align: left;
+    width: 358px;
+    font-size: 19.6px;
+}
+
+.Card-Product .Quantity-Unity-Value-Container {
+    display: flex;
+}
+
+.Card-Product .Product-Quantity-Container {
+    display: flex;
+    width: 138px;
+    height: 52px;
+    margin: 12px 45px;
+    border-radius: 10px;
+}
+
+.Product-Quantity-Container .Minus-Product-Button{
+    width: 43px;
+    border-radius: 10px 0 0 10px;
+    border: none;
+    background-color: var(--global-primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Product-Quantity-Container .Plus-Product-Button{
+    width: 43px;
+    border-radius: 0 10px 10px 0;
+    border: none;
+    background-color: var(--global-primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.Product-Quantity-Container .Product-Quantity {
+    box-sizing: border-box;
+    width: 50px;
+    height: 52px;
+    font-size: 25px;
+    color: white;
+    padding-top: 13px;
+    font-weight: bold;
+    background-color: var(--global-primary-color-variation);
+}
+
+.Quantity-Unity-Value-Container .Unity-Value {
+    margin: 49px 0 0 -30px;
+    font-size: 17px;
+    color: rgb(77, 77, 77);
+}
+
+.Card-Product .Add-Product-To-Cart-Button {
+    margin-top: 4px;
+    height: 51px;
+    width: 359px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--global-primary-color);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Product-On-Cart-Label {
+    box-sizing: border-box;
+    margin: 14px auto;
+    padding-top: 7px;
+    width: 170px;
+    height: 31px;
+    border-radius: 5px 5px 0 0;
+    background-color: var(--global-secundary-color);
+    color: white;
+}
